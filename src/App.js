@@ -2,6 +2,7 @@ import "./App.scss";
 import Header from "./Components/Header/Header";
 import SectionImage from "./Components/SectionImage/SectionImage";
 import Courses from "./Components/Courses/Courses";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <SectionImage />
       {/* Courses */}
       <Courses />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
