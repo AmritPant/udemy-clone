@@ -1,6 +1,7 @@
 import "./App.scss";
 import Header from "./Components/Header/Header";
 import SectionImage from "./Components/SectionImage/SectionImage";
+import Courses from "./Components/Courses/Courses";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* Section Image*/}
       <SectionImage />
       {/* Courses */}
+      <Courses />
     </div>
   );
 }

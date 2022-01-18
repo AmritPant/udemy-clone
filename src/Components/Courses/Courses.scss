@@ -1,0 +1,22 @@
+.courses {
+  padding: 0 3rem;
+  margin-top: 4rem;
+
+  &__para {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &__course-box {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.heading-primary {
+  font-weight: 700;
+  color: #1c1d1f;
+  font-family: "PT Serif", serif;
+  font-size: 3.4rem;
+}
