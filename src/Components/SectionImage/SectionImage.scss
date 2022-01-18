@@ -1,0 +1,33 @@
+.section-image {
+  position: relative;
+  z-index: -1;
+
+  &__text-box {
+    background-color: white;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  }
+
+  &__para {
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    span {
+      display: block;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.heading-secondary {
+  font-family: "PT Serif", serif;
+  font-size: 3.4rem;
+}
