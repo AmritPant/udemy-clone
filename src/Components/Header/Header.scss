@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+
+  &__logo-box {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+  }
+
+  &__link {
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+
+  &__logo {
+    width: 9rem;
+    height: 8.4rem;
+    margin-right: 2rem;
+  }
+
+  &__search-box {
+    flex: 0.55;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    border-radius: 100px;
+  }
+
+  &__input {
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__search-icon {
+    color: gray;
+    margin-right: 2rem;
+    cursor: not-allowed;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    * {
+      cursor: pointer;
+    }
+
+    *:not(:last-child) {
+      margin-right: 1.2rem;
+    }
+  }
+
+  &__btn {
+    height: 3.5rem;
+    width: 7rem;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid black;
+    &--unfilled {
+      background-color: transparent;
+    }
+
+    &--filled {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.lang-btn {
+  width: 4rem !important;
+}
