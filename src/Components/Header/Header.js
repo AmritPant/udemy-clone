@@ -11,9 +11,7 @@ function Header() {
     <header className="header">
       <div className="header__logo-box">
         <img src={LOGO__LINK} alt="Logo" className="header__logo" />
-        <a href="#" className="header__link">
-          Categories
-        </a>
+        <button className="header__link">Categories</button>
       </div>
       <div className="header__search-box">
         <SearchOutlinedIcon fontSize="large" className="header__search-icon" />
